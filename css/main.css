@@ -1,0 +1,287 @@
+/******Base styles********/
+body{
+    font-family: 'source sans pro',sans-serif;
+    color: #2b2b2b;
+}
+/***Grid***/
+.full-width{
+    width: 1200px;
+    margin: 0 auto;
+    overflow: auto;
+}
+.half-width{
+    width: 600px;
+    float: left;
+}
+.third-width{
+    width: 400px;
+    float: left;
+}
+/*******Header*******/
+header {
+    height: 800px;
+    background-image: url(../img/full-background.png); 
+    background-size: cover;
+    background-position: center;
+}
+header h1 { 
+    padding: 65px 0 65px 25px;
+    font-family: 'Lora', serif;
+    font-size: 30px;
+    color: #bbc085;
+}
+nav {
+    float: right; 
+    padding: 75px 25px;
+}
+    nav ul li{
+    display: inline-block;
+}
+    nav ul li a {
+    text-transform: capitalize;
+    text-decoration: none;
+    font-size: 18px;
+    color: #828282;
+    padding-left: 80px; 
+    word-spacing: 80px;
+}
+header h2 {
+    width: 950;
+    clear: both;
+    font-family: 'Lora', serif;
+    font-size: 72px;
+    line-height: 80px;
+    color: #9b9b9b;
+    padding: 20px 0 20px 25px;
+}
+header h2 span {
+    color: #2b2b2b;
+}
+/****** ABOUT ******/
+#about .header{
+    background-image: url(../img/full-background.png);
+    height: 150px;
+    box-sizing: content-box;
+}
+
+#about .header .sub-one{
+    float: left;
+    font-family: 'Lora', serif;
+    font-size: 30px;
+    color: #bbc085;
+    padding-left: 80px;
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+
+#about .header .sub-one a{
+    text-decoration: none;
+    color: #bbc085;
+}
+
+#about .full-width{
+    padding: 80px 0px;
+}
+#about h2{
+    font-family: 'Lora', serif;
+    font-size: 36px;
+    padding-left: 50px;
+}
+#about p {
+    font-size: 21px;
+    color: #7f7f7f;
+    line-height: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+/* this is the style for the work section */
+#work{
+    background: #f9ceb7;
+    text-align: center;
+}
+
+#work .header{
+    background-image: url(../img/full-background.png);
+    height: 200px;
+    box-sizing: content-box;
+}
+
+#work .header .sub-one{
+    float: left;
+    font-family: 'Lora', serif;
+    font-size: 30px;
+    color: #bbc085;
+    padding-left: 80px;
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+
+#work .header .sub-one a{
+    text-decoration: none;
+    color: #bbc085;
+}
+
+
+#work .full-width {
+    padding: 115px 0;
+}
+#work img {
+    padding-bottom: 30px;
+}
+#work h3 {
+    font-size: 24px;
+    line-height: 32px;
+    width: 190px;
+    margin: 0 auto;
+    color: #2b2b2b;
+}
+#work p {
+    font-family: 'Lora', serif; 
+    font-size: 18px;
+    line-height: 30px;
+    padding: 0 50px;
+    color: #2b2b2b;
+    /* width: 300px; */
+    /* box-sizing: border-box; */
+}
+/****** CONTACT ******/
+#contact{
+    background: #ebebeb;
+}
+#contact .full-width {
+    padding: 110px 0;
+    /* display: inline-block; */
+    /* float: left; */
+}
+#contact #contact-img {
+    margin-left: 25px;
+    border: 12px solid #ffffff;
+    width: 550px;
+    /* display: inline-block; */
+    /* float: left; */
+}
+#contact h2, 
+#contact #email-header, 
+#contact #socialmedia-header, 
+#contact ul {
+    padding-left: 115px;
+    /* display: inline-block; */
+    /* float: right; */
+}
+#contact #envelope {
+    padding: 0 10px 0 115px;
+    /* float: right; */
+}
+#contact h2 {
+    font-family: 'Lora', serif;
+    font-size: 36px;
+    line-height: 44px;
+    color: #2b2b2b;
+}
+#contact #email-header{
+    font-size: 32px;
+    font-weight: lighter;
+    line-height: 44px;
+    margin: -30px 0 5px 0;
+}
+#contact #socialmedia-header {
+    font-weight: bold;
+    font-size: 29px;
+    line-height: 44px;
+    margin: 40px 0 0 0;
+    color: #2b2b2b;
+}
+#contact a {
+    text-decoration: none; 
+    color: #c49075;
+    font-weight: bold;
+    font-size: 28px;
+    /* float: right; */
+}
+#contact ul {
+    list-style: none;
+}
+#contact ul li {
+    display: inline-block;
+}
+#contact ul img {
+    padding-right: 48px;
+}
+
+.bout{
+    height: 100px;
+    /* background-size: cover; */
+    /* background-position: center; */
+    background-color: #2b2b2b;
+    box-sizing: border-box;
+    /* float: left; */
+    display: inline-block;
+}
+
+.bout nav{
+    float: right; 
+    padding: 75px 25px;
+    /* display: inline-block; */
+}
+
+/* projects design */
+#Projects{
+    background: #f9ceb7;
+    text-align: center;
+}
+
+#Projects .header{
+    background-image: url(../img/full-background.png);
+    height: 200px;
+    box-sizing: content-box;
+}
+
+#Projects .header .sub-one{
+    float: left;
+    font-family: 'Lora', serif;
+    font-size: 30px;
+    color: #bbc085;
+    padding-left: 80px;
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+
+#Projects .header .sub-one a{
+    text-decoration: none;
+    color: #bbc085;
+}
+
+#Projects .full-width {
+    padding: 115px 0;
+}
+
+#Projects .heading {
+    font-family: 'Lora', serif;
+    text-align: center;
+    padding-bottom: 50px;
+    padding-top: 0px;
+}
+
+#Projects img {
+    width: 300px;
+    padding-bottom: 30px;
+}
+
+#Projects h3 {
+    font-size: 24px;
+    line-height: 32px;
+    width: 300px;
+    margin: 0 auto;
+    color: #2b2b2b;
+    padding-bottom: 20px;
+}
+
+#Projects p {
+    font-family: 'Lora', serif; 
+    font-size: 18px;
+    line-height: 30px;
+    padding: 0 50px;
+    color: #2b2b2b;
+    /* width: 1100px; */
+    /* box-sizing: border-box; */
+}
